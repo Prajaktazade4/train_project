@@ -1,0 +1,13 @@
+<div class="container">
+  <h2 style="text-align: center;">Train booking system</h2>
+  <div class="row">
+    <div class="col-lg-6">
+      <h4>{{trainName}}</h4>
+      <p>Aval Ticket:{{avalTicket}}</p>
+    </div>
+    <div class="col-lg-6">
+      <button type="button" class="btn btn-success" (click)="bookTicket()">Book ticket</button>
+      <button type="button" class="btn btn-danger" (click)="cancelTicket()">cancel ticket</button>
+    </div>
+  </div></div>
+<router-outlet></router-outlet>
